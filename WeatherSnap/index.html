@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css' />
+    <link rel="stylesheet" href="style.css">
+    <title>WeatherSnap</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="display-weather">
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" name="search-q" id="search-item" placeholder="Search a city">
+            </div>
+            <ul class="weather-details">
+
+                <!-- <li>
+                    <img src="" alt="sunny">
+                    <div class="temp-det">
+                        <p class="discription">abhishek</p>
+                        <p class="temp">23</p>
+                        <p>Balliputtga, India</p>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+        <div id="map"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
